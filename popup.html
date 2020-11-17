@@ -6,8 +6,11 @@
     <title>VocBuild</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!--  -->
 <script src="https://kit.fontawesome.com/5ba649b238.js" crossorigin="anonymous"></script>
-<style>
+<!-- <style>
+
     .switch {
   position: relative;
   display: inline-block;
@@ -68,89 +71,98 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-</style>
+</style> -->
 <style>
-html, body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    margin: 0;
-    min-height: 180px; 
-    padding: 0;
-    width: 384px;
-   
-}
-h1{
-    font-family: 'Menlo', monospace;
-    font-size: 22px;
-    font-weight: 400;
-    margin: 0;
-    color: #02ac6b;;
+     html,
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+      }
 
-}
-a:link, a:visited{
-    color: black;
-    outline: 0;
-    text-decoration: none;
-}
-img{
-    width: 30px;
-}
+      h1 {
+        font-family: "Menlo", monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f764a;
+      }
 
-.modal-header{
-    align-items: center;
-    border-bottom: 0.5px solid rgb(82, 98, 91);
-    overflow: hidden;
-}
-.modal-content{
-    padding: 0 22px;
-    border-bottom: 0.5px solid rgb(82, 98, 91);
-}
-.modal-logo-icons{
-    
-    height: 50px;
-    width: 100%;
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
 
+      img {
+        width: 30px;
+      }
 
-}
-.logo{
-    padding: 16px;
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
 
-}
+      .modal-content {
+        padding: 0 22px;
+      }
 
-.logo-icon{
-    vertical-align: text-bottom;
-    margin-right: 12px;
-}
-.version{
-    color: #444;
-    font-size: 18px;
-}
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
 
-.flex-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 22px;
-}
-.flex{
-    display: flex;
-    justify-content: space-between;
-    opacity: 1;
-    transition: opacity 0.2s ease-in-out;
-    width: 200px;
-}
-.flex:hover{
-    opacity: 0.4;
-}
+      .logo {
+        padding: 16px;
+      }
 
-.flex .fa {
-    font-size: 40px;
-    color: #02ac6b;
-}
-.fab{
-    font-size: 40px;
-    color: #02ac6b;
-}
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
 
+      .version {
+        color: #444;
+        font-size: 18px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #2f764a;
+      }
+      .flex .fab {
+        font-size: 40px;
+        color: #2f764a;
+      }
+      .flex .fad {
+        font-size: 40px;
+        color: #2f764a;
+      }
+      .flex .fas {
+        font-size: 40px;
+        color: #2f764a;
+      }
 </style>
 </head>
 <body>
@@ -165,21 +177,37 @@ img{
     </div>
     <div class="modal-icons">
         <div class="flex-container">
-            <div class="flex">
-                <a href="https://writeandimprove.com/workbooks#/wi-workbooks"><i class="fa fa-pen-square"></i></a>
-                <a href="https://www.oxfordreadingbuddy.com/uk"><i class="fab fa-readme" ></i></a>
-                <a href="https://www.ldoceonline.com/"><i class="fa fa-search" ></i></a>
-                
-                
-            </div>
-        </div>
-    </div>
-    <div class="modal-content">
+          <div class="flex">
+            <a href="#" target="_blank">
+              <i class="fa fa-save" ></i>
+            </a>
+          </div>
+          <div class="flex">
+            <a href="#"  target="_blank">
+              <i class="fa fa-youtube" ></i>
+            </a>
+          </div>
+          <div class="flex">
+            <a href="#" target="_blank">
+              <i class="fa fa-edit" ></i>
+            </a>
+          </div>
+          <div class="flex">
+            <a href="#" target="_blank">
+              <i class="fa fa-book" ></i>
+            </a>
+          </div>
+          <div class="flex">
+            <a href="#" target="_blank">
+              <i class="fa fa-search" ></i>
+            </a>
+          </div>
+    <!-- <div class="modal-content">
         
         <label class="switch">
             <input type="checkbox">
             <span class="slider round"></span>
           </label>
-    </div>
+    </div> -->
 </body>
 </html>
